@@ -30,14 +30,14 @@ def get_config(start_time):
         # "dataset": "nuswide_10",
 
         "info": "WCH",
-        "bit_list": [16, 32, 64, 128],
+        "bit_list": [16, 32, 64],
         "backbone": "ViT-B_16",
         "pretrained_dir": "imagenet21k+imagenet2012_ViT-B_16-224.npz",
         "optimizer": {"type": optim.Adam, "lr": 1e-5},
 
-        "epoch": 100,
-        "test_map": 5,
-        "batch_size": 16,
+        "epoch": 50,
+        "test_map": 10,
+        "batch_size": 32,
         "num_workers": 4,
 
         "logs_path": "logs",
