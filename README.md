@@ -12,11 +12,11 @@ WCH发表在[ACCV 2022](https://openaccess.thecvf.com/content/ACCV2022/html/Yu_W
 
 **论文中的结果：**
 
-<img src="\images\2.png" alt="2" style="zoom:67%;" />
+<img src="\images\2.png" alt="2" width="500" />
 
-<img src="\images\3.png" alt="3" style="zoom:80%;" />
+<img src="\images\3.png" alt="3" width="500" />
 
-<img src="\images\4.png" alt="4" style="zoom:80%;" />
+<img src="\images\4.png" alt="4" width="500" />
 
 **本人复现结果：**
 
