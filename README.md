@@ -36,11 +36,11 @@ WCH发表在[ACCV 2022](https://openaccess.thecvf.com/content/ACCV2022/html/Yu_W
 - config[“dataset”]=“cifar10-1”将使用1000个图像（每个类100个图像）作为查询集，其余59000个图像用作数据库，5000个图像（每类500个图像）从数据库中随机采样作为训练集。
 - config[“dataset”]=“cifar10-2”将使用10000个图像（每个类1000个图像）作为查询集，50000个图像（每类5000个图像）用作训练集和数据库。
 
-你可以在[这里]([TreezzZ/DSDH_PyTorch: Source code for paper "Deep Supervised Discrete Hashing" on NeurIPS-2017 (github.com)](https://github.com/TreezzZ/DSDH_PyTorch))下载**NUS-WIDE**，它使用data/nus-wide/code.py进行划分，每个类随机选择100幅图像作为查询集（共2100幅图像）。剩余的图像被用作数据库集，我们从中每个类随机采样500个图像作为训练集（总共10500个图像）。
+你可以在[这里](https://github.com/TreezzZ/DSDH_PyTorch)下载NUS-WIDE，它使用data/nus-wide/code.py进行划分，每个类随机选择100幅图像作为查询集（共2100幅图像）。剩余的图像被用作数据库集，我们从中每个类随机采样500个图像作为训练集（总共10500个图像）。
 
-你可以在[这里]([HashNet/pytorch at master · thuml/HashNet (github.com)](https://github.com/thuml/HashNet/tree/master/pytorch))下载**ImageNet**、**NUS-WIDE-m**和**COCO**数据集，或者使用[百度云盘（密码：hash）]([百度网盘 请输入提取码 (baidu.com)](https://pan.baidu.com/share/init?surl=_BiOmeCRYx6cVTWeWq-O9g))。NUS-WIDE中有269648个图像，其中195834个图像分为21个常见类别。NUS-WIDE-m有223496个图像。
+你可以在[这里](https://github.com/thuml/HashNet)下载ImageNet、NUS-WIDE-m和COCO数据集，或者使用[百度云盘](https://pan.baidu.com)（密码：hash）。NUS-WIDE中有269648个图像，其中195834个图像分为21个常见类别。NUS-WIDE-m有223496个图像。
 
-你可以在[这里]([MIRFLICKR Download (liacs.nl)](https://press.liacs.nl/mirflickr/mirdownload.html))下载**mirflickr**，然后使用/data/mirflickr/code.py划分，随机选择1000个图像作为测试查询集和4000个图像作为训练集。
+你可以在[这里](https://www.liacs.nl/~mirflickr)下载mirflickr，然后使用data/mirflickr/code.py划分，随机选择1000个图像作为测试查询集和4000个图像作为训练集。
 
 ## 如何运行
 
