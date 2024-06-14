@@ -6,23 +6,23 @@
 
 WCH发表在[ACCV 2022](https://openaccess.thecvf.com/content/ACCV2022/html/Yu_Weighted_Contrative_Hashing_ACCV_2022_paper.html)。Weighted Contrastive Hashing 是一种用于图像检索和分类的先进算法。它通过细粒度的图像块交互来计算图像之间的相似性，并使用互注意力机制增强图像对的相似性，从而提高特征表示的质量。WCH 模型能够在对比学习中生成高质量的哈希编码，使得相似图像在哈希空间中更接近，非相似图像更远离。这种方法不仅提高了检索精度，还减少了误检样本的数量，尤其在高维度哈希编码下表现尤为出色。
 
-<img src="C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614091349782.png" alt="image-20240614091349782" style="zoom:80%;" />
+<img src="/images/1.png" alt="image1" style="zoom:80%;" />
 
 ## 模型效果
 
 **论文中的结果：**
 
-<img src="C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614091414721.png" alt="image-20240614091414721" style="zoom: 67%;" />
+<img src="\images\2.png" alt="2" style="zoom:67%;" />
 
-<img src="C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614091501354.png" alt="image-20240614091501354" style="zoom:80%;" />
+<img src="\images\3.png" alt="3" style="zoom:80%;" />
 
-![image-20240614091532180](C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614091532180.png)
+<img src="\images\4.png" alt="4" style="zoom:80%;" />
 
 **本人复现结果：**
 
-![image-20240614092947186](C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614092947186.png)
+![5](\images\5.png)
 
-<img src="C:\Users\chenrq\AppData\Roaming\Typora\typora-user-images\image-20240614093038172.png" alt="image-20240614093038172" style="zoom:80%;" />
+<img src="\images\6.png" alt="6" style="zoom:80%;" />
 
 ## 预训练权重
 
