@@ -20,13 +20,13 @@ WCH发表在[ACCV 2022](https://openaccess.thecvf.com/content/ACCV2022/html/Yu_W
 
 **本人复现结果：**
 
-![5](\images\5.png)
+<img src="\images\5.png" alt="6" width="500" />
 
-<img src="\images\6.png" alt="6" style="zoom:80%;" />
+<img src="\images\6.png" alt="6" width="500" />
 
 ## 预训练权重
 
-模型需要imagenet21k+imagenet2012_ViT-B_16-224预训练权重。可以在[百度云盘（提取码：m003）]([vit_models_免费高速下载|百度网盘-分享无限制 (baidu.com)](https://pan.baidu.com/s/1eGVoQUOgEi_RtBj15InevA#list/path=%2F))中下载。
+模型需要`imagenet21k+imagenet2012_ViT-B_16-224`预训练权重。可以在[百度云盘（提取码：m003）](https://pan.baidu.com/s/1eGVoQUOgEi_RtBj15InevA#list/path=%2F)中下载。
 
 ## 数据集
 
